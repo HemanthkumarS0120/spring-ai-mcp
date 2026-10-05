@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "spring-ai-mcp": {
+      "command": "C:\\Program Files\\SapMachine\\JDK\\17\\bin\\java.exe",
+      "args": [
+        "-jar",
+        "C:\\Users\\C5417797\\Desktop\\JavaCoding\\Springboot\\mcpserver-stdio\\target\\mcpserver-stdio-0.0.1-SNAPSHOT.jar"
+      ]
+    },
+    "filesystem": {
+      "command": "C:\\Program Files\\nodejs\\npx.cmd",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\Users\\C5417797\\Desktop\\JavaCoding\\Springboot\\MCP"
+      ]
+    },
+    "github": {
+      "command": "C:\\Users\\C5417797\\Desktop\\JavaCoding\\Springboot\\github-mcp-server_Windows_x86_64\\github-mcp-server.exe",
+      "args": ["stdio"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "PAT_Token_here",
+        "GITHUB_HOST": "https://github.tools.sap"
+      }
+    }
+  }
+}

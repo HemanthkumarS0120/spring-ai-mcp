@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "spring-ai-mcp": {
+      "command": "C:\\Program Files\\SapMachine\\JDK\\17\\bin\\java.exe",
+      "args": [
+        "-jar",
+        "C:\\Users\\C5417797\\Desktop\\JavaCoding\\Springboot\\mcpserver-stdio\\target\\mcpserver-stdio-0.0.1-SNAPSHOT.jar"
+      ]
+    },
+    "filesystem": {
+      "command": "C:\\Program Files\\nodejs\\npx.cmd",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\Users\\C5417797\\Desktop\\JavaCoding\\Springboot\\MCP"
+      ]
+    }
+  }
+}
